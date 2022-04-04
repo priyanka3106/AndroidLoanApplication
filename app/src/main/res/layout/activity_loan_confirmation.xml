@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".KYCDashboard">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="50dp"
+        android:text="Loan Confirmation"
+        android:textColor="@color/white"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_marginTop="135dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="1">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/aadhercard"
+                android:layout_width="350dp"
+                android:layout_height="560dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="15dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="vertical"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Loan EMI"
+                        android:textSize="15dp"
+                        android:layout_margin="6dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"/>
+                    <TextView
+                        android:id="@+id/emi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:text="00000"
+                        android:textSize="25dp"
+                        android:layout_margin="8dp"
+                        android:textStyle="bold"
+                        android:textColor="#03A9F4"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Loan APR"
+                        android:textSize="15dp"
+                        android:layout_margin="6dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"/>
+                    <TextView
+                        android:id="@+id/apr"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:text="00000"
+                        android:textSize="25dp"
+                        android:layout_margin="8dp"
+                        android:textStyle="bold"
+                        android:textColor="#03A9F4"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tenure in years"
+                        android:textSize="15dp"
+                        android:layout_margin="6dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"/>
+                    <TextView
+                        android:id="@+id/tenure"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:text="00000"
+                        android:textSize="25dp"
+                        android:layout_margin="8dp"
+                        android:textStyle="bold"
+                        android:textColor="#03A9F4"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Total Interest Payable"
+                        android:textSize="15dp"
+                        android:layout_margin="6dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"/>
+                    <TextView
+                        android:id="@+id/interest"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:text="00000"
+                        android:textSize="25dp"
+                        android:layout_margin="8dp"
+                        android:textStyle="bold"
+                        android:textColor="#03A9F4"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Total Payment"
+                        android:textSize="15dp"
+                        android:layout_margin="6dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"/>
+                    <TextView
+                        android:id="@+id/payment"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:text="00000"
+                        android:textSize="25dp"
+                        android:layout_margin="8dp"
+                        android:textStyle="bold"
+                        android:textColor="#03A9F4"/>
+                </LinearLayout>
+
+                <CheckBox
+                    android:id="@+id/checkBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:textStyle="italic"
+                    android:layout_marginBottom="80dp"
+                    android:layout_marginLeft="30dp"
+                    android:text="Accept Terms and Condtions" />
+
+                <Button
+                    android:id="@+id/applyloan"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="Apply For Loan"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_gravity="bottom"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    app:cornerRadius="10dp" />
+
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

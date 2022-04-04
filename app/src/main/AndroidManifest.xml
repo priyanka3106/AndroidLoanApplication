@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.loanapplication">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LoanApplication">
+        <activity
+            android:name=".UploadSelectImage"
+            android:parentActivityName=".KYCDashboard"
+            android:exported="false" />
+        <activity
+            android:name=".UserLoanList"
+            android:exported="false" />
+        <activity
+            android:name=".DetailLoanUser"
+            android:exported="false" />
+        <activity
+            android:name=".AppliedUserList"
+            android:exported="false" />
+        <activity
+            android:name=".AboutUs"
+
+            android:exported="false" />
+        <activity
+            android:name=".MyLoanDetails"
+            android:exported="false" />
+        <activity
+            android:name=".MyLoanApplication"
+            android:exported="false" />
+        <activity
+            android:name=".SelectionLoan"
+            android:exported="false" />
+        <activity
+            android:name=".LoanTypeUser"
+            android:exported="false" />
+        <activity
+            android:name=".EMICalculation"
+            android:exported="false" />
+        <activity
+            android:name=".LoanTypesAdmin"
+            android:exported="false" />
+        <activity
+            android:name=".ManageLoanRateAdmin"
+            android:exported="false" />
+        <activity
+            android:name=".CreateNewLoan"
+            android:exported="false" />
+        <activity
+            android:name=".ManageLoanAdmin"
+            android:exported="false" />
+        <activity
+            android:name=".UserListAdmin"
+            android:exported="false" />
+        <activity
+            android:name=".HomeAdminDashboard"
+            android:exported="false" />
+        <activity
+            android:name=".AdminLogin"
+            android:parentActivityName=".LoginScreen"
+            android:exported="false" />
+
+        <activity
+            android:name=".LoanConfirmation"
+            android:exported="false" />
+        <activity
+            android:name=".LoanEligibility"
+            android:exported="false" />
+        <activity
+            android:name=".LoanCalculation"
+            android:exported="false" />
+        <activity
+            android:name=".LoanSelectionSchema"
+            android:exported="false" />
+        <activity
+            android:name=".EignDashboard"
+            android:exported="false" />
+        <activity
+            android:name=".KYCDashboard"
+            android:exported="false" />
+        <activity
+            android:name=".BankDetailsForm"
+            android:exported="false" />
+        <activity
+            android:name=".IncomeDetailsForm"
+            android:exported="false" />
+        <activity
+            android:name=".AddressDetailsForm"
+            android:exported="false" />
+        <activity
+            android:name=".ContactInformationForm"
+            android:exported="false" />
+        <activity
+            android:name=".ProfileDashboard"
+            android:parentActivityName=".HomeDashboard"
+            android:exported="false" />
+        <activity
+            android:name=".PersonalInformationForm"
+            android:exported="false" />
+        <activity
+            android:name=".HomeDashboard"
+            android:parentActivityName=".LoginMain"
+            android:exported="false" />
+        <activity
+            android:name=".LoginMain"
+            android:parentActivityName=".LoginScreen"
+            android:exported="false" />
+        <activity
+            android:name=".LoginScreen"
+            android:exported="false" />
+        <activity
+            android:name=".SplachScreen"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:parentActivityName=".LoginScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

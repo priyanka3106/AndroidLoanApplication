@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">LoanApplication</string>
+    <string-array name="nationlity">
+        <item>Select Nationality</item>
+        <item>India</item>
+        <item>America</item>
+        <item>Albania</item>
+        <item>Algeria</item>
+    </string-array>
+    <string-array name="mstatus">
+        <item>Select Marital Status</item>
+        <item>Single</item>
+        <item>Married</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="appartmentdetails">
+        <item>Select Ownership</item>
+        <item>Owned by Self/Spouse</item>
+        <item>Owned by Parent/Sibiling</item>
+        <item>Company Provided</item>
+        <item>Rented-Staying alone</item>
+        <item>Rented-With Family</item>
+        <item>Rented- With Friends</item>
+        <item>Hostel/Paying Guest</item>
+    </string-array>
+    <string-array name="durationofstay">
+        <item>Select Duration Of Stay</item>
+        <item>0-2 Years</item>
+        <item>3-5 Years</item>
+        <item>>5 Years</item>
+    </string-array>
+    <string-array name="occupation">
+        <item>Select type of income</item>
+        <item>Employed</item>
+        <item>Self Employed</item>
+        <item>No Regular Income</item>
+    </string-array>
+    <string-array name="frequencyofincome">
+        <item>Select frequency of income</item>
+        <item>Daily</item>
+        <item>Weekly</item>
+        <item>Fortnightly</item>
+        <item>Monthly</item>
+    </string-array>
+    <string-array name="paymentmethod">
+        <item>Select payment method</item>
+        <item>Direct Credit to Account</item>
+        <item>Cash</item>
+        <item>Cheque</item>
+    </string-array>
+    <string-array name="employertype">
+        <item>Select Employer Type</item>
+        <item>Private Sector</item>
+        <item>Public Sector</item>
+        <item>Government</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="jobtype">
+        <item>Select Job Type</item>
+        <item>Permanent</item>
+        <item>Contractual</item>
+    </string-array>
+    <string-array name="bankname">
+        <item>Select Bank Name</item>
+        <item>Central Bank Of India</item>
+        <item>ICICI</item>
+        <item>Bank Of Maharashtra</item>
+        <item>HDFC</item>
+        <item>Kotak Mahindra</item>
+        <item>State Bank Of India</item>
+    </string-array>
+
+    <string-array name="ReasonForLoan">
+        <item>Select Reason</item>
+        <item>Important Bill Payment</item>
+        <item>Home Improvement</item>
+        <item>Payoff Other Debts</item>
+        <item>Vacations</item>
+        <item>Urgent Repair</item>
+        <item>Medical Emergency</item>
+        <item>Education</item>
+        <item>Others</item>
+    </string-array>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_applied_loan_application">AppliedLoanApplication</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+</resources>
